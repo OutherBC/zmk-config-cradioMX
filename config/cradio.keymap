@@ -68,12 +68,12 @@
         };
 
         kagikakkoL {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <13 12>;
         };
 
         kagikakkoR {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <16 17>;
         };
 
