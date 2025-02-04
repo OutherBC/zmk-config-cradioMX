@@ -96,6 +96,11 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <16 18>;
         };
+
+        layer6 {
+            bindings = <&mo 6>;
+            key-positions = <29 20>;
+        };
     };
 
     keymap {
