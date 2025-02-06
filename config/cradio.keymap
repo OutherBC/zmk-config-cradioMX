@@ -126,10 +126,10 @@
 
         right_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans          &kp UP_ARROW    &trans     &kp TAB
-&trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &kp PAGE_UP     &kp PAGE_DOWN   &trans     &bootloader
-                        &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans    &trans          &kp UP_ARROW    &trans     &kp TAB
+&trans  &trans  &trans  &trans  &trans    &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp END
+&trans  &trans  &trans  &trans  &trans    &trans    &kp PAGE_UP     &kp PAGE_DOWN   &trans     &bootloader
+                        &trans  &trans    &trans    &trans
             >;
         };
 
