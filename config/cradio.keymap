@@ -101,6 +101,11 @@
             bindings = <&mo 6>;
             key-positions = <4 3>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <18 19>;
+        };
     };
 
     keymap {
@@ -108,7 +113,7 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W  &kp E  &kp R        &kp T                         &kp Y                     &kp U            &kp I      &kp O    &kp P
+&mt LEFT_GUI Q      &kp W  &kp E  &kp R        &kp T                         &kp Y                     &kp U            &kp I      &kp O    &kp P
 &ht LEFT_CONTROL A  &kp S  &kp D  &kp F        &kp G                         &kp H                     &kp J            &kp K      &kp L    &mt RIGHT_GUI ENTER
 &kp Z               &kp X  &kp C  &kp V        &kp B                         &kp N                     &lt 2 M          &kp COMMA  &kp DOT  &ht RIGHT_SHIFT EXCLAMATION
                                   &lt 1 SPACE  &ht LEFT_SHIFT RIGHT_ARROW    &ht RIGHT_ALT LEFT_ARROW  &lt 2 BACKSPACE
