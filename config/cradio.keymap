@@ -59,12 +59,12 @@
 
         hiragana {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <20 21>;
+            key-positions = <24 23>;
         };
 
         eisu {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <28 29>;
+            key-positions = <25 26>;
         };
 
         kagikakkoL {
@@ -113,10 +113,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_GUI Q      &kp W  &kp E  &kp R        &kp T                   &kp Y                   &kp U            &kp I      &kp O    &kp P
-&ht LEFT_CONTROL A  &kp S  &kp D  &kp F        &kp G                   &kp H                   &kp J            &kp K      &kp L    &mt RIGHT_GUI ENTER
-&kp Z               &kp X  &kp C  &kp V        &kp B                   &kp N                   &lt 2 M          &kp COMMA  &kp DOT  &ht RIGHT_SHIFT EXCLAMATION
-                                  &lt 1 SPACE  &ht LEFT_SHIFT MINUS    &ht RIGHT_ALT CAPSLOCK  &lt 2 BACKSPACE
+&mt LEFT_GUI Q      &kp W  &kp E  &kp R      &kp T                   &kp Y                  &kp U            &kp I      &kp O    &mt RIGHT_GUI P
+&ht LEFT_CONTROL A  &kp S  &kp D  &kp F      &kp G                   &kp H                  &kp J            &kp K      &kp L    &kp MINUS
+&kp Z               &kp X  &kp C  &kp V      &mt LEFT_ALT B          &mt RIGHT_ALT N        &lt 2 M          &kp COMMA  &kp DOT  &kp EXCLAMATION
+                                  &lt 1 TAB  &ht LEFT_SHIFT SPACE    &ht RIGHT_SHIFT ENTER  &lt 2 BACKSPACE
             >;
         };
 
