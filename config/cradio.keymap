@@ -45,26 +45,6 @@
         };
     };
 
-behaviors {
-        td0: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <140>;
-            bindings = <&kp EXCLAMATION>, <&kp QMARK>;
-        };
-    };
-
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-                &td0
-            >;
-        };
-    };
-};
-
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
