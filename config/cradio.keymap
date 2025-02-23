@@ -26,8 +26,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
+            tapping-term-ms = <160>;
+            quick-tap-ms = <140>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
@@ -44,6 +44,30 @@
             delay-ms = <0>;                   // 10
         };
     };
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <140>;
+            bindings = <&kp EXCLAMATION>, <&kp QMARK>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &td0
+            >;
+        };
+    };
+};
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
