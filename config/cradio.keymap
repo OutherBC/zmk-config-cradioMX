@@ -121,7 +121,7 @@
 &kp NUMBER_1   &kp NUMBER_2          &kp NUMBER_3       &kp NUMBER_4           &kp NUMBER_5     &kp NUMBER_6   &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
 &kp AMPERSAND  &kp LEFT_BRACKET      &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET      &kp AT           &kp PLUS       &kp UNDER       &kp ASTERISK  &kp PERCENT      &kp EQUAL
 &kp GRAVE      &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE   &kp RIGHT_PARENTHESIS  &kp SEMICOLON    &kp HASH       &kp LEFT_BRACE  &kp COLON     &kp RIGHT_BRACE  &kp QMARK
-                                                        &trans                 &trans           &kp BACKSPACE  &kp DELETE
+                                                        &trans                 &trans           &kp BACKSPACE  &trans
             >;
         };
 
